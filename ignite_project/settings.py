@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-%!)vmw8x(48$jc0ze&^)d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["ignite-zcd8.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
